@@ -1,7 +1,5 @@
 \# CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding
 
-
-
 !\[Teaser Image](assets/teaser\_placeholder.png)
 
 
@@ -46,7 +44,4 @@ Our evaluation of 8 state-of-the-art VLM configurations reveals:
 
 \## 📝 Citation
 
-If you find our work useful in your research, please consider citing:
-
-
-
+If you find our work useful in your research, please consider citing:  
