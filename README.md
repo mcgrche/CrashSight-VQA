@@ -1,6 +1,6 @@
 # CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding
 
-![Teaser Image](assets/figure1_teaser.png)
+![Teaser Image](assets/figure1_teaser.png) 
 
 This repository contains the code, data, and evaluation protocols for **CrashSight**, the first large-scale vision-language benchmark for roadway crash understanding using real-world roadside camera data.
 
