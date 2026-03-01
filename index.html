@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrashSight Benchmark</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 2rem; }
+        h1 { text-align: center; color: #111; font-size: 2.5em; }
+        .authors { text-align: center; font-size: 1.2em; margin-bottom: 2rem; }
+        .institutions { text-align: center; font-style: italic; margin-bottom: 2rem; color: #666; }
+        .links { text-align: center; margin-bottom: 3rem; }
+        .links a { background: #0366d6; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin: 0 10px; }
+        .abstract { background: #f6f8fa; padding: 20px; border-radius: 8px; margin-bottom: 2rem; }
+        img { max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+
+    <h1>CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding</h1>
+    
+    <div class="authors">
+        Rui Gan<sup>1</sup>, Pei Li<sup>2</sup>, Junyi Ma<sup>1</sup>, Xingyou Yang<sup>1</sup>, Sikai Chen<sup>1</sup>, Bin Ran<sup>1</sup>
+    </div>
+    
+    <div class="institutions">
+        <sup>1</sup>University of Wisconsin–Madison &nbsp;&nbsp; <sup>2</sup>University of Wyoming
+    </div>
+
+    <div class="links">
+        <a href="https://github.com/YOUR_USERNAME/CrashSight">GitHub Code</a>
+        <a href="#">Paper (arXiv)</a>
+        <a href="#">Dataset</a>
+    </div>
+
+    <img src="assets/teaser_placeholder.png" alt="CrashSight Teaser Overview">
+
+    <div class="abstract">
+        <h2>Abstract</h2>
+        <p>Cooperative autonomous driving requires traffic scene understanding from both vehicle and infrastructure perspectives. While vision-language models (VLMs) show strong general reasoning capabilities, their performance in safety-critical scenarios remains insufficiently evaluated due to the ego-vehicle focus of existing benchmarks. To bridge this gap, we present CrashSight, a large-scale vision-language benchmark for roadway crash understanding using real-world roadside camera data. We benchmark 8 state-of-the-art VLM configurations and show that, despite strong scene description capabilities, current models struggle with temporal and causal reasoning in safety-critical scenarios.</p>
+    </div>
+
+    <h2>Error Taxonomy and Failure Analysis</h2>
+    <p>Our transition analysis across 1,962 test samples identifies three compounding factors restricting current VLM performance on crash mechanics: insufficient visual token budgets, quantization overhead, and frozen visual encoders. The proposed benchmark provides a standardized evaluation framework to overcome these limitations for infrastructure-assisted perception in V2X-enabled cooperative driving.</p>
+
+</body>
+</html>
